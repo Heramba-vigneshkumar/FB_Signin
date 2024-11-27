@@ -1,0 +1,104 @@
+body,#logo,.tittle{
+    margin:0;
+}
+.main-div{
+    background-color:#f0f2f5;
+    font-family: "Roboto", sans-serif;
+    display:flex;
+    padding: 18px;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+#logo{
+    color:#0866ff;
+    padding:10px 0 20px 0;
+    font-size:54px;
+}
+.tittle{
+    background-color:white;
+    text-align: center;
+    width: 432px;
+    border-radius: 7px;
+    border:   .5px solid rgb(209, 207, 207);
+}
+#head1{
+    font-size: 27px;
+    margin: 10px 0 0 0;
+    padding:0;
+}
+#head2{
+    color:#1c1e21;
+    margin:0;
+    font-size: 20px;
+    padding-bottom: 12px;
+
+}
+.input-fields{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.name{
+    width:40%;
+    padding: 10px;
+    margin: 15px 0px 5px 0px;
+    border-radius: 5px;
+}
+.name1{
+    width:88%;
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 5px;
+}
+.dob,.sex-div{
+    display: flex;
+    width: 100%;
+    padding: 8px 15px 1px 15px;
+}
+.name2{
+    width:28%;
+    padding: 8px;
+    margin: 6px 5px 8px 5px;
+    border-radius: 5px;
+}
+.radio{
+    width:25%;
+    padding: 6px;
+    margin: 6px 5px 3px 5px;
+    border-radius: 5px;
+    border: .5px solid;
+}
+.radio1{
+    float:left;
+}
+.radio2{
+    float: right;
+    margin: 5px;
+}
+.para{
+    font-size: 11.1px;
+    margin: 8px 19px 6px 15px;
+    text-align: left;
+}
+.enter{
+    background-color:#00a400;
+    color:#ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    border:0;
+    padding: 6px 60px;
+    margin: 17px 50px;
+}
+.enter:hover{
+    background-color:#027402;
+}
+#exist{
+    font-size:17.5px;
+    margin: 5px 50px 30px 50px;
+}
+.radio,.name,.name1,.name2,.input-fields{
+    border: .5px solid rgb(209, 207, 207);
+}
